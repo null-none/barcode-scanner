@@ -22,7 +22,7 @@ Example
   from barcode import scanner
 
   usb = scanner.USB(vendor_id=0x0922, product_id=0x8003)
-  print scanner.get_code()
+  print(scanner.get_code())
 
 
 =======
